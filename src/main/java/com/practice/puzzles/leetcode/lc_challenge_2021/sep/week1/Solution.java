@@ -1,4 +1,4 @@
-package com.practice.puzzles.leetcode.lc_challenge_2021_sep_week_1;
+package com.practice.puzzles.leetcode.lc_challenge_2021.sep.week1;
 
 public class Solution {
 
