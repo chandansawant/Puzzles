@@ -1,8 +1,8 @@
-package com.leetcode;
+package com.practice.puzzles.leetcode.lc410;
 
 import java.util.stream.IntStream;
 
-public class LC_410_Split_Array_Largest_Sum {
+public class Split_Array_Largest_Sum {
 
 	public int splitArray(int[] nums, int m) {
 		int result = splitArray(nums, 0, nums.length - 1, m);
@@ -83,7 +83,7 @@ public class LC_410_Split_Array_Largest_Sum {
 	}
 
 	public static void executeTest(int[] nums, int m, int expectedResult) {
-		int result = new LC_410_Split_Array_Largest_Sum().splitArray(nums, m);
+		int result = new Split_Array_Largest_Sum().splitArray(nums, m);
 
 		System.out.println("[" + ((expectedResult == result) ? "PASSED" : "FAILED")
 				+ "] for nums = [" + toString(nums) + "], m = [" + m
