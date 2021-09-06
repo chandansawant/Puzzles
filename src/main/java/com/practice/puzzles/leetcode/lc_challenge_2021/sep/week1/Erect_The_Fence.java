@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentSkipListSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Solution {
+public class Erect_The_Fence {
 
 	private static int MAX_X = 100;
 	private static int MAX_Y = 100;
